@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Название сайта</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="Логотип">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1>Заголовок страницы</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Наименование</th>
+            <th>Количество</th>
+            <th>Цена</th>
+            <th>Сумма</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Товар 1</td>
+            <td>10</td>
+            <td>100</td>
+            <td>1000</td>
+          </tr>
+          <tr>
+            <td>Товар 2</td>
+            <td>20</td>
+            <td>200</td>
+            <td>4000</td>
+          </tr>
+          <tr>
+            <td>Товар 3</td>
+            <td>30</td>
+            <td>300</td>
+            <td>9000</td>
+          </tr>
+          <tr>
+            <td>Товар 4</td>
+            <td>40</td>
+            <td>400</td>
+            <td>16000</td>
+          </tr>
+          <tr>
+            <td>Товар 5</td>
+            <td>50</td>
+            <td>500</td>
+            <td>25000</td>
+          </tr>
+          <tr>
+            <td>Товар 6</td>
+            <td>60</td>
+            <td>600</td>
+            <td>36000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2023 Название сайта</p>
+    </div>
+  </footer>
+</body>
+</html>
